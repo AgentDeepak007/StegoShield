@@ -1,0 +1,8 @@
+import tkinter as tk
+from tkinter import ttk, filedialog, simpledialog, messagebox, StringVar, Text
+import importlib
+import json
+import os
+import about.about as about
+from settings import settings as settings_tab  # <-- Import settings tab
+from auth_window import AuthDialog  # <-- Import authentication window
